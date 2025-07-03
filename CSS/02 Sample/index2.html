@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-transform: capitalize;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #333;
+            padding: 20px 35px;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 12px;
+            transition: 1.2s;
+            font-weight: bold;
+
+
+        }
+
+        .navbar .logo {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar .logo:hover {
+            color: #1670f7;
+            transform: scale(1.05);
+
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            gap: 60px;
+        }
+
+        .navbar ul :hover {
+            color: blueviolet;
+            transition: 0.165s;
+            background-color: #968e8e;
+            border-radius: 5px;
+
+
+
+        }
+
+        /* 
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .navbar ul li a {
+                width: 100%;
+                display: block;
+            }
+        } */
+
+        .bg {
+            margin: 30px;
+
+
+        }
+
+        .linear h2 {
+            border: 1px solid;
+            width: 250px;
+            text-align: center;
+            background: lightpink;
+            align-items: center;
+            text-indent: 5px;
+            text-shadow: 2px 2px 1px gray;
+
+        }
+
+
+        .linear img {
+            /* min-height: 300px; */
+            width: 300px;
+            padding-top: 50px;
+            margin-left: 20px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .fimage {
+            cursor: pointer;
+        }
+
+        .fimage :hover {
+            transform: translate(100px, 40px);
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+        }
+
+        .simage{
+            cursor: alias;
+        }
+        .simage :hover{
+            transform: scale(1, 0.3);
+            transition-duration: 2s;
+
+        }
+
+        .foimage{
+            cursor:grab;
+        }
+        .foimage :hover{
+
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+
+        <a href="#" class="logo">SHAHID</a>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Activities</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="bg">
+        <div class="linear">
+            <h2>linear gardian</h2>
+            <div class="fimage"><img src="./Img/photography by Bored Panda.jpeg" alt=""></div>
+            <div class="simage"><img src="./Img/San Francisco Beach Sunset Golden Gate Bridge….jpeg" alt=""></div>
+            <div class="timage"><img src="./Img/Mount Rainier at the beginning of sunset last….jpeg" alt=""></div>
+            <div class="foimage"><img src="./Img/Mike Taylor sent SPACE_com this image of the….jpeg" alt=""></div>
+            <div class="f-image"><img src="./Img/faeeadd7-43f3-4062-94c5-49ec471e91b4.jpeg" alt=""></div>
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
