@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             /* box-sizing: border-box; */
-
         }
 
         body {
@@ -24,8 +23,6 @@
             padding: 20px 35px;
             align-items: center;
             justify-content: space-evenly;
-
-
         }
 
         .navbar ul li a {
@@ -34,8 +31,6 @@
             padding: 8px 12px;
             transition: 1.2s;
             font-weight: bold;
-
-
         }
 
         .navbar .logo {
@@ -64,9 +59,6 @@
             transition: 0.165s;
             background-color: #968e8e;
             border-radius: 5px;
-
-
-
         }
 
         /* 
@@ -89,8 +81,6 @@
 
         .bg {
             margin: 30px;
-
-
         }
 
         .linear h2 {
@@ -101,9 +91,7 @@
             align-items: center;
             text-indent: 5px;
             text-shadow: 2px 2px 1px gray;
-
         }
-
 
         .linear img {
             /* min-height: 300px; */
@@ -112,11 +100,11 @@
             margin-left: 20px;
             justify-content: center;
             align-items: center;
-
         }
 
         .fimage {
             cursor: pointer;
+            
         }
 
         .fimage :hover {
@@ -125,21 +113,98 @@
             transition-timing-function: ease-in;
         }
 
-        .simage{
+        .simage {
             cursor: alias;
         }
-        .simage :hover{
+
+        .simage :hover {
             transform: scale(1, 0.3);
-            transition-duration: 2s;
-
+            transition-duration: 5s;
+            width: 200px;
         }
 
-        .foimage{
-            cursor:grab;
+        .timage {
+            cursor: progress;
         }
-        .foimage :hover{
 
+        .timage :hover {
+            width: 400px;
+            transition-duration: 3s;
+        }
+
+        .foimage {
+            cursor: grab;
+        }
+
+        .foimage :hover {
             transform: rotate(30deg);
+            transition-duration: 3s;
+            transition-timing-function: step(4);
+        }
+
+        .f-image {
+            cursor: zoom-out;
+        }
+
+        .f-image :hover {
+            transform: rotate(360deg);
+            transition: 2s;
+            transition-duration: 5s;
+            transition-timing-function: steps(10);
+        }
+
+        .section2 {
+            background-color: thistle;
+            height: auto;
+            /* width: 100%; */
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .container{
+         
+            text-align: center;
+            align-items: center;
+            
+        }
+        .box1{
+          border: 1px solid red;
+          background-color: lightcoral;
+          width: 200px;
+        }
+
+        .box2{
+          border: 1px solid red;
+          background-color: lightcoral;
+          width: 200px;
+        }
+        .box3{
+          border: 1px solid red;
+          background-color: lightcoral;
+          width: 200px;
+        }
+        .box4{
+          border: 1px solid red;
+          background-color: lightcoral;
+          width: 200px;
+        }
+        .box5{
+          border: 1px solid red;
+          background-color: lightcoral;
+          width: 200px;
+          box-shadow:8px 8px 8px blue;
+        }
+
+        .container{
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .imageimage{
+            background-attachment: scroll;
+            width: 200px;
+            height: 150px;
+           
         }
     </style>
 </head>
@@ -147,7 +212,6 @@
 <body>
     <!-- navbar -->
     <div class="navbar">
-
         <a href="#" class="logo">SHAHID</a>
 
         <ul>
@@ -158,19 +222,39 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
+    <img src="./Img/33fdf12a-934c-4236-a931-6de60dc56af7.jpeg" alt="" class="imageimage">
     <div class="bg">
         <div class="linear">
             <h2>linear gardian</h2>
-            <div class="fimage"><img src="./Img/photography by Bored Panda.jpeg" alt=""></div>
-            <div class="simage"><img src="./Img/San Francisco Beach Sunset Golden Gate Bridge….jpeg" alt=""></div>
-            <div class="timage"><img src="./Img/Mount Rainier at the beginning of sunset last….jpeg" alt=""></div>
-            <div class="foimage"><img src="./Img/Mike Taylor sent SPACE_com this image of the….jpeg" alt=""></div>
-            <div class="f-image"><img src="./Img/faeeadd7-43f3-4062-94c5-49ec471e91b4.jpeg" alt=""></div>
-
-
+            <div class="fimage">
+                <img src="./Img/photography by Bored Panda.jpeg" alt="" />
+            </div>
+            <div class="simage">
+                <img src="./Img/San Francisco Beach Sunset Golden Gate Bridge….jpeg" alt="" />
+            </div>
+            <div class="timage">
+                <img src="./Img/Mount Rainier at the beginning of sunset last….jpeg" alt="" />
+            </div>
+            <div class="foimage">
+                <img src="./Img/Mike Taylor sent SPACE_com this image of the….jpeg" alt="" />
+            </div>
+            <div class="f-image">
+                <img src="./Img/faeeadd7-43f3-4062-94c5-49ec471e91b4.jpeg" alt="" />
+            </div>
         </div>
     </div>
+     
+
+    <div class="section2">
+        <div class="container">
+            <div class="box1">BOX 1</div>
+            <div class="box2">BOX 2</div>
+            <div class="box3">BOX 3</div>
+            <div class="box4">BOX 4</div>
+            <div class="box5">BOX 5</div>
+        </div>
     </div>
+   
 </body>
 
 </html>
