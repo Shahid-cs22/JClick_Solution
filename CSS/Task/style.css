@@ -17,18 +17,27 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(58, 57, 57);
-    padding: 25px;
+    padding: 30px;
+
+
+
 
 
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
-    gap: 50px;
+    gap: 100px;
+
+
+
+
+
+
 }
 
 .navbar ul li a:hover {
@@ -51,23 +60,24 @@ ul {
 }
 
 
+
 .inner {
     position: absolute;
     top: 45%;
     width: 100%;
     text-align: center;
     top: 220px;
-    
+
 }
 
-.txt1{
+.txt1 {
     font-size: 30px;
     color: white;
     font-size: "Trebuchet MS", sans-serif;
 
 }
 
-.txt2{
+.txt2 {
     margin-top: 10px;
     font-family: "Comic Sans MS", cursive;
     font-size: 4em;
@@ -75,7 +85,7 @@ ul {
     padding-bottom: 20px;
 }
 
-.btn-1{
+.btn-1 {
     padding: 20px;
     border-radius: 7px;
     background-color: gold;
@@ -83,27 +93,42 @@ ul {
     color: white;
     font-weight: bold;
     font-size: 18px;
-    
+
 }
 
-.btn-1:hover{
+.btn-1:hover {
     cursor: pointer;
     background-color: rgb(214, 185, 18);
 }
 
-.sect-1{
+.sect-1 {
     text-align: center;
     padding-top: 40px;
     font-size: 2rem;
 }
 
-.head-1{
+.head-1 {
     text-transform: uppercase;
     padding-bottom: 15px;
     font-family: "Trebuchet MS"
 }
 
-.head-2{
+.head-2 {
     color: #ccc;
     font-size: 20px;
+}
+
+
+.navimg {
+    position: fixed;
+    top: 400px;
+    left: 1000px;
+
+    border-radius: 50%;
+
+}
+
+img:hover {
+    cursor: pointer;
+    color: blue;
 }
