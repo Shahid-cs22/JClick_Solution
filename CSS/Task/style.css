@@ -9,10 +9,7 @@
 
     font-family: 'Trebuchet MS',
     'Lucida Sans Unicode',
-    'Lucida Grande',
-    'Lucida Sans',
-    Arial,
-    sans-serif;
+    'Lucida Grande',sans-serif;
 }
 
 .navbar {
@@ -110,7 +107,8 @@ ul {
 .head-1 {
     text-transform: uppercase;
     padding-bottom: 15px;
-    font-family: "Trebuchet MS"
+    font-family: "Trebuchet MS";
+    font-weight: bold;
 }
 
 .head-2 {
@@ -120,21 +118,29 @@ ul {
 }
 
 
-.navimg {
+/* .navimg { 
     width: 50px;
     position: fixed;
     top: 600px;
     left: 1350px;
-
+background-color: blue;
     border-radius: 40%;
 
-}
+} */
 
+.navimg{
+    width: 40px;
+    border-radius: 70%;
+    position: fixed;
+    top: 400px;
+    left: 1280px;
+    
+}
 
 
 img:hover {
     cursor: pointer;
-    color: blue;
+    
 }
 
 .cardsection{
@@ -152,6 +158,7 @@ img:hover {
     color: #5a5a5a;
     padding: 50px 58px 50px 50px;
     align-items: center;
+    text-align: center;
 }
 
 .cardsontent img{
@@ -163,4 +170,131 @@ img:hover {
     font-size: 20px;
     font-weight: bold;
     padding-top: 500px;
+}
+
+
+
+.portfolio{
+    background-color:rgb(248, 248, 248) ;
+    text-align: center;
+      padding-bottom: 20px;
+}
+.port-title{
+    text-transform:uppercase;
+    font-family: "Trebuchet MS";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    /* text-align: center; */
+}
+
+.port-title-sub{
+    color: #bbbbbb;
+    font-size: 20px;
+  
+   
+
+}
+
+/* contact */
+
+.contact{
+    background: url(./pics/3.jpg);
+    
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.contents{
+    text-transform:uppercase;
+    font-family: "Trebuchet MS";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contact-title-sub{
+    color: #bbbbbb;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font: lighter;
+
+}
+
+.user-required{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+input[type]{
+    padding: 20px;
+    
+}
+
+input[type="text"]{
+    text-transform: capitalize;
+    border: 1px solid green;
+    font-size:20px;
+    font-weight: bolder;
+    color: #af2525;
+    width: 500px;
+}
+
+input[type="number"]{
+    text-transform: capitalize;
+    border: 1px solid green;
+    font-size:20px;
+    font-weight: bolder;
+    color: #af2525;
+    width: 500px;
+}
+
+textarea{
+    width: 500px;
+    color: forestgreen;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    border: 1px solid green;
+    font-weight: bolder;
+    padding-right: 10px;
+    height:220px;
+}
+
+input[type="number"]:hover{
+    background-color: rgb(226, 222, 195);
+}
+
+input[type="text"]:hover{
+     background-color: rgb(226, 222, 195);
+}
+textarea:hover{
+    background-color: rgb(226, 222, 195);
+}
+
+.btn-2{
+    text-transform: capitalize;
+    padding-top: 50px;
+    background-color: gold;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn-2:hover{
+      background-color: rgb(226, 222, 195);
+      color: brown;
+}
+
+.foter-content{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
 }
