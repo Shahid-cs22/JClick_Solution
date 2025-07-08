@@ -116,19 +116,51 @@ ul {
 .head-2 {
     color: #ccc;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 
 .navimg {
+    width: 50px;
     position: fixed;
-    top: 400px;
-    left: 1000px;
+    top: 600px;
+    left: 1350px;
 
-    border-radius: 50%;
+    border-radius: 40%;
 
 }
+
+
 
 img:hover {
     cursor: pointer;
     color: blue;
+}
+
+.cardsection{
+    display: flex;
+    text-align: center;
+    
+}
+
+/* .spancontent{
+    
+    justify-content: center;
+} */
+
+.cardsontent{
+    color: #5a5a5a;
+    padding: 50px 58px 50px 50px;
+    align-items: center;
+}
+
+.cardsontent img{
+    border-radius: 50%;
+}
+
+.spanone{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 500px;
 }
