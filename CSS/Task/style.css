@@ -201,10 +201,12 @@ img:hover {
 
 .contact{
     background: url(./pics/3.jpg);
+    background-size: 100%;
     
     padding-bottom: 50px;
     justify-content: center;
     text-align: center;
+    background-repeat: no-repeat;
     
 }
 
@@ -282,7 +284,7 @@ textarea:hover{
 .btn-2{
     text-transform: capitalize;
     padding-top: 50px;
-    background-color: gold;
+    background-color: rgb(255, 218, 8);
     color: white;
     font-weight: bolder;
     font-size: 20px;
@@ -297,4 +299,104 @@ textarea:hover{
     display:flex;
     justify-content: space-between;
     list-style: none;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.box1-1{
+    position: relative;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.box1-2{
+    position: absolute;
+    background-color: rgba(243, 247, 4, 0.815);
+    width: 250px;
+    height:250px;
+    top: 0%;
+    text-align: center;
+    align-content: center;
+    opacity: 0;
+    /* padding-bottom: 40px; */
+    
+}
+
+.box1{
+    position: relative;
+}
+
+.box1-2:hover{
+    opacity: 1;
+}
+
+.box2{
+    position: relative;
+}
+
+.box2-1{
+    position: relative;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.box2-2{
+    position: absolute;
+    background-color: rgba(243, 247, 4, 0.815);
+    width: 250px;
+    height:250px;
+    top: 0%;
+    text-align: center;
+    align-content: center;
+    opacity: 0;
+}
+.box2-2:hover{
+    opacity: 1;
+}
+
+.box3{
+    position: relative;
+}
+.box3-1{
+     position: relative;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.box3-2{
+    position: absolute;
+    background-color: rgba(243, 247, 4, 0.815);
+    width: 250px;
+    height:250px;
+    top: 0%;
+    text-align: center;
+    align-content: center;
+    opacity: 0;
+}
+
+.box3-2:hover{
+    opacity: 1;
+}
+
+.box-title{
+    margin-top: 20px;
+
+   
+}
+/* .box-title h2{
+    width: 100px;
+    justify-content: center;
+} */
+
+.box-title-1 em{
+    color: rgb(147, 147, 142);
+    margin-top: 20px;
 }
