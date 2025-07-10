@@ -470,3 +470,70 @@ textarea:hover {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.abt-1{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.abt-2{
+    color: #bbbbbb;
+     font-weight: 700;
+}
+
+.foter-content .lione{
+    color: #3f3b3b;
+    font-size: 15px;
+}
+/* about */
+/* .abt-content{
+    position: relative;
+    padding: 20px, 0;
+}
+
+.abt-content::before{
+    
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 40px;
+    height: 100%;
+    background: #ddd;
+    transform: translate x(-50%);
+} */
+
+.timeline{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px; ;
+
+
+}
+
+.timeline-2{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px; ;
+
+}
+
+.timeline-3{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px; ;
+
+
+}
+
+.timeline-4{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px; ;
+
+
+}
