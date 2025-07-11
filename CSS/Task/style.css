@@ -558,5 +558,11 @@ td img{
 .table-conntent{
     color: #646363;
     text-align: right;
+    /* background-color: aquamarine !important; */
+   width: 400px;
     
+}
+
+.timeline-item2 img{
+    margin-left: 30px;
 }
