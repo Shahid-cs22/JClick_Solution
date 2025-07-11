@@ -545,7 +545,18 @@ textarea:hover {
 }
 
 .table tr {
-    
+    padding-bottom: 200px;
+}
+.hide-col{
+    visibility: hidden;
 }
 
-...
+td img{
+    border-radius: 50%;
+}
+
+.table-conntent{
+    color: #646363;
+    text-align: right;
+    
+}
