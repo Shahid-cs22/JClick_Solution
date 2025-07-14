@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
 
-  <style>
-    .zoom-image{
-        width: 600px;
-        height: 400px;
-        border-radius: 50px;
-        overflow: hidden;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<style>
+  .zoom-image {
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .zoom-image img {
+    height: 100%;
+    width: 100%;
+    transition: 0.9s;
+  }
+
+  .zoom-image:hover img {
+    transform: scale(1.2);
+  }
+
+  .box {
+    height: 200px;
+    width: 300px;
+    border-radius: 1%;
+    overflow: hidden;
+  }
+
+  .box img {
+    height: 100%;
+    width: 100%;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: shahid;
+  }
+
+  @keyframes shahid {
+    20% {
+      transform: rotate(180deg);
     }
 
-    .zoom-image img{
-        height: 100%;
-        width: 100%;
-        transition: 0.8s;
+    100% {
+      transform: rotate(360deg);
     }
+  }
 
-    .zoom-image:hover img{
-        transform: scale(1.5);
+  .container{
+    background:linear-gradient(top, right yellow green gray red violet blue);
+    animation: sha 5s ease infinite;
+    width: 100px;
+    height: 200px;
+    color: red;
+    text-align: center;
+    align-content: center;
+  }
+
+  @keyframes sha{
+    100%{
+      filter: hue-rotate(360deg);
     }
-  </style>
+  }
+</style>
 
-  <body>
-    <div class="zoom-image">
-      <img
-        src="./Img/Mike Taylor sent SPACE_com this image of the….jpeg"
-        alt=""
-      />
+<body>
+  <div class="zoom-image">
+    <img src="./Img/Mike Taylor sent SPACE_com this image of the….jpeg" alt="" />
 
-    </div>
+  </div> <br><br><br>
 
 
-  </body>
+  <div class="box">
+    <img src="./Img/photography by Bored Panda.jpeg" alt="">
+  </div>
+  <br><br><br><br>
+
+  <div class="container">
+    <h1>Shahid</h1>
+  </div>
+
+</body>
+
 </html>
