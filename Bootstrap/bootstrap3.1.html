@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <style>
+        .row img {
+            max-height: 450px; 
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .section{
+            background-color: rgb(82, 76, 76);
+        }
+    </style>
+</head>
+
+<!-- xs (Extra small): Less than 576px (no specific class infix, default behavior)
+
+sm (Small): 
+ge 576px
+
+md (Medium): 
+ge 768px
+
+lg (Large): 
+ge 992px
+
+xl (Extra large): 
+ge 1200px
+
+xxl (Extra extra large): 
+ge 1400px (Bootstrap 5+) -->
+
+<body>
+
+    <div class="section py-2">
+        <div class="container">
+            <h1 class="pt-4 lg-12 md-4 sm-4 xs-4 text-center text-danger">Welcome to Bootstrap</h1>
+
+            <div class="row ">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a1.jpeg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a2.jpeg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a3.jpeg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a4.jpeg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a5.jpeg" alt="Image 4" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a6.jpeg" alt="Image 5" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a3.jpeg" alt="Image 6" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <img src="./img/a2.jpeg" alt="Image 2" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
